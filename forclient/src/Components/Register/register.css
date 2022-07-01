@@ -1,0 +1,94 @@
+.get-in-touch {
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+  
+  }
+  .get-in-touch .title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+  
+    letter-spacing: 3px;
+    font-size: 3.2em;
+    font-weight: bold;
+    line-height: 48px;
+    margin-top: 150px;
+
+    padding-bottom: 0px;
+    color: #1365ff;
+      background: #1f93ff;
+      background: -moz-linear-gradient(left,#4df4a6  0%,#4393fd 100%) !important;
+      background: -webkit-linear-gradient(left,#4df4a6  0%,#4393fd 100%) !important;
+      background: linear-gradient(to right,#4df4a6  0%,#4393fd  100%) !important;
+      -webkit-background-clip : text !important;
+      -webkit-text-fill-color: transparent !important;
+  }
+  
+  .contact-form .form-field {
+    position: relative;
+    margin: 32px 0;
+  }
+  .contact-form .input-text {
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: #006eff;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+  }
+  .contact-form .input-text:focus {
+    outline: none;
+  }
+  .contact-form .input-text:focus + .label,
+  .contact-form .input-text.not-empty + .label {
+    -webkit-transform: translateY(-24px);
+           transform: translateY(-24px);
+  }
+  .contact-form .label {
+    position: absolute;
+    left: 20px;
+    bottom: 29px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #0076fd;
+    cursor: text;
+    transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    transition: transform .2s ease-in-out, 
+    -webkit-transform .2s ease-in-out;
+  }
+  .contact-form .submit-btn {
+    display: inline-block;
+    background-color: #000;
+    background-image: linear-gradient(125deg,#4df4a6,#4393fd);
+    color: #fff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width:200px;
+    cursor: pointer;
+  }
+  s
+  
+
+
+
+.signup-redirect{
+  margin-top: -110px !important; 
+ 
+  font-weight: 500;
+  line-height: 1.2;
+  position: absolute;
+  margin-left: 220px !important; 
+
+}
+
+ 
+  
