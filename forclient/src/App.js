@@ -6,8 +6,11 @@ import Destination from './Components/Destination/vac'
 import NavBar from './Components/HomePage/navBar'
 import Register from './Components/Register/register';
 import SignUp from './Components/Register/SignUp'
-import Reservation from './Components/Reservation/reservation'
 import Details from './Components/Destination/Details'
+import tourDetails from './Components/Destination/tourDetails'
+import Reservation from './Components/Reservation/reservation'
+
+
 function App() {
   return (
     <div className="App">
@@ -18,8 +21,11 @@ function App() {
         <Route path ="/login" component ={Register} />
         <Route path="/SignUp"  component={SignUp}/>
         <Route path="/destination" component={Destination} />
-        <Route path="/reservation" component={Reservation} />   
         <Route path="/Details/:id"  component={Details} />
+        <Route path="/tourDetails"  component={tourDetails} />
+        <Route path="/Reservation"  component={Reservation} />
+
+
       </Switch>
         
         

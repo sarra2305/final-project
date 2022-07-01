@@ -3,7 +3,7 @@ import './reservation.css'
 
 import {useHistory} from 'react-router-dom'
 function Reservation() {
-    let history = useHistory();
+   let history = useHistory();
   const userIsConnected = JSON.parse(localStorage.getItem('current_user'));
   if(!userIsConnected){
     history.push('/Login')

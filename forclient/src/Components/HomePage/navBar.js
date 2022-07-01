@@ -20,7 +20,6 @@ function navBar() {
       <Nav.Link as ={Link} to="/" >Home</Nav.Link>
       <Nav.Link as ={Link} to="/AboutUs">AboutUs</Nav.Link>
       <Nav.Link as ={Link} to ="/Destination">Destination</Nav.Link>
-      <Nav.Link as ={Link} to ="/Hotels">Hotels</Nav.Link>
 
       {userIsConnected? <Nav.Link onClick={() => logout()}>Logout</Nav.Link> : <Nav.Link as ={Link} to ="/Login">Login</Nav.Link>}
     
